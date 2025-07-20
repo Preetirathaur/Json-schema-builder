@@ -1,0 +1,25 @@
+:root {
+  /* Colors */
+  --color-primary: #3182ce;
+  --color-primary-dark: #2c5aa0;
+  --color-secondary: #2d3748;
+  --color-secondary-dark: #1a202c;
+  --color-success: #48bb78;
+  --color-danger: #e53e3e;
+  --color-danger-light: #fed7d7;
+  
+
+
+
+
+  
+  /* Grays */
+  --color-gray-50: #f7fafc;
+  --color-gray-100: #edf2f7;
+  --color-gray-200: #e2e8f0;
+  --color-gray-300: #cbd5e0;
+  --color-gray-400: #a0aec0;
+  --color-gray-500: #718096;
+  --color-gray-600: #4a5568;
+  --color-gray-700: #5e2e2e;
+}

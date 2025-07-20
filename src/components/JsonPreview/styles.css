@@ -1,0 +1,44 @@
+.json-preview {
+  height: 100%;
+}
+
+.json-preview h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #2d3748;
+  font-size: 1.25rem;
+}
+
+.json-content {
+  background-color: #1a202c;
+  border-radius: 8px;
+  padding: 1.5rem;
+  height: 400px;
+  overflow: auto;
+  border: 1px solid #2d3748;
+}
+
+.json-code {
+  color: #48bb78;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.json-code::selection {
+  background-color: rgba(72, 187, 120, 0.2);
+}
+
+@media (max-width: 768px) {
+  .json-content {
+    height: 300px;
+    padding: 1rem;
+  }
+  
+  .json-code {
+    font-size: 0.8rem;
+  }
+}
